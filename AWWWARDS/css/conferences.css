@@ -1,0 +1,191 @@
+.con-left
+{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+
+.con-right
+{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.city-name h5
+{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.block{
+    width: 100%;
+    padding-top: 50px;
+    clear: both;
+}
+
+.past-left{
+    width: 50%;
+    float: left;
+}
+
+.past-right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.box-info{
+    width: 100%;
+    clear: both;
+}
+
+.boxinfo hr
+{
+    width: 80px;
+    border: 2px solid black;
+}
+
+.city-date
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: thin;
+    padding-bottom: 20px;
+}
+
+.city-conferences
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: center;
+}
+.past-conference{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    width: 100%;
+}
+
+.city-conferences{
+    text-align: left;
+}
+
+.past-lefttitle
+{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.past-conferences ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.past-conferences li
+{
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+
+.past-info{
+    text-align: left;
+    background: white;
+    font-size: 14px;
+    width: 300px;
+}
+
+.past-location{
+    padding: 20px 20px 5px 20px;
+    height: auto;
+
+}
+
+.past-opreation{
+    padding: 5px 20px 5px 20px;
+    height: auto;
+}
+
+.past-lefttrans{
+    text-align: right;
+    padding: 10px 20px 10px 20px;
+}
+
+.past-lefttrans.talks{
+    padding: 30px 20px 10px 20px;
+}
+
+.icon-trans{
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #d5d6d6;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    transition: all 0.3s;
+}
+
+.icon-trans:hover{
+    border-color: #49c5b6;
+}
+
+.fi-share{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: #d5d6d6;
+    transition: all 0.3s;
+}
+
+.fi-share:hover{
+    color: #49c5b6;
+}
+
+.past-pic
+{
+    width: 300px;
+}
+
+.past-pic img
+{
+    object-fit: cover;
+}
+
+.changebright
+{
+    transition: all 0.5s;
+}
+
+.changebright:hover{
+    filter: brightness(70%);
+}
+
+.past-lefttitle span{
+    font-weight: bold;
+}
+
+.sub-nav{
+    font-size: 16px;
+    background-color: #f4f7f6;
+}
+
+.sub-nav a:link{
+    color: black;
+}
+
+.magell{
+    background-color: #f4f7f6;
+    margin-top: 60px;
+    z-index: 120;
+}

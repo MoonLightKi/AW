@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in to Awwwards</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <!-- Custom Theme Files -->
+	<link rel="stylesheet" href="css/login.css" type="text/css" media="all">	
+	<script src="javascript/login.js"></script>
+
+</head>
+<body>
+<div id="container">
+	<div class="con-left"></div>
+	<div class="con-right">
+    	<div id="login-content">
+		<table id="table">
+			<caption class="caption">
+				Welcome To AWWWARDS
+			</caption>
+			<tr>
+				<td	class="sc">
+					<div class="sc-left">
+						<h3>
+							<strong>Sign in to continue</strong>
+						</h3>
+					</div>
+					<div class="sc-right">
+						<h3>
+							Not a member yet?
+						</h3>
+						<strong class="text-reg"><a href="register.html">Register now</a></strong>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="td error">
+					<span class="errorinfo"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					<input type="text" placeholder="Email or Username" class="text" id="user" required = "required">
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					<input type="password" class="text" placeholder="Password" id="pwd" required= "required">
+				</td>
+			</tr>
+			<tr>
+				<td class="td keepstate">
+					<input type="checkbox" id="keepstate" value="logged">  Keep me logged in
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					<input type="submit" class="btn btn-primary" value="LOGIN NOW" id = "btn_login">
+				</td>
+			</tr>
+
+
+		</table>
+	</div>
+	</div>
+</div>
+</body>
+</html>

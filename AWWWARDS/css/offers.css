@@ -1,0 +1,25 @@
+.pages
+{
+    margin: 0;
+    text-align: content;
+    padding: 0;
+}
+
+.jobs-info.offers
+{
+    width: 100%;
+}
+
+.col-jobs.offers{
+    width: 100%;
+    clear: both;
+}
+
+.jobs-gird-title
+{
+    width: 100%;
+}
+
+.cards-card{
+    width: 25%;
+}

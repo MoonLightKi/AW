@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register to Awwwards</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+	<script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
+
+
+
+    <!-- Custom Theme Files -->
+	<link rel="stylesheet" href="css/register.css" type="text/css" media="all">	
+	<script src="javascript/register.js"></script>
+	<script src="javascript/jquery.cookie.js"></script>
+
+</head>
+<body>
+<form formmethod="post">
+<div id="container">
+	<div class="con-left"></div>
+	<div class="con-right">
+    <div id="login-content">
+		<table id="table">
+			<caption class="caption">
+				Welcome To AWWWARDS
+			</caption>
+			<tr>
+				<td	class="sc">
+					<div class="sc-left">
+						<h3>
+							<strong>Register with</strong>
+						</h3>
+					</div>
+					<div class="sc-right">
+						<p id="test"></p>
+						<p id = "test2"></p>
+						<h3>
+							Not a member yet?
+						</h3>
+						<strong class="text-reg"><a href="login.html">Login now</a></strong>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="td error">
+					<span class="errorinfo"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					<input type="text" placeholder="Email or Username" class="text" id="username" required = "required">
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					<input type="text" placeholder="E-mail" class="text" id="E-mail" required = "required">
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="td">
+					<input type="password" class="text" placeholder="Password" id="pwd" required= "required">
+				</td>
+			</tr>
+
+			<tr>
+				<td class="td">
+					<input type="password" class="text" placeholder="Repeat Password" id="rpwd" required= "required">
+				</td>
+			</tr>
+			<tr>
+				<td class="td keepstate">
+					<input type="checkbox" id="keepstate" value="accept"><span>I accept the Terms and Conditions and Privacy Pollcy</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					<input type="button" class="btn btn-primary" value="CREATE YOUR ACCOUNT" id = "btn_register">
+				</td>
+			</tr>
+			<tr>
+				<td class="td term">
+					
+					@ 2019 Awwwards. All rights reserved.
+					By singing up, I agree to Awwwards's
+					Terms of Service
+				</td>
+			</tr>
+
+
+
+		</table>
+	</div>
+</div>
+</div>
+</form>
+</body>
+</html>

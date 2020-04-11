@@ -1,0 +1,197 @@
+.container.websites
+{
+    padding-top: 70px;
+}
+
+.main-section
+{
+    margin-top: 1.65%;
+    position: relative;
+}
+
+
+
+.tab-bar
+{
+    color: white;
+}
+
+.button:visited
+{ 
+    background: #f4f7f6;
+    color: black;
+}
+
+.button:active
+{
+    background: #f4f7f6;
+    color: black;
+}
+
+.ttt
+{
+    text-align: left;
+    border-top: 1px solid #e1e4e3;
+    border-bottom: 1px solid #e1e4e3;
+    height:53px;
+    position: fixed;
+    font-size: 14px;
+    z-index: 199;
+    width: 100%;
+    background: #f4f7f6;
+}
+
+.container
+{
+    text-align: left;
+}
+
+.filterby
+{
+    width: 80px;
+    text-align: center;
+    background: #f4f7f6;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    float: left;
+    line-height: 50px;
+    border-left: 1px solid #e1e4e3;
+}
+
+.filterby-icon
+{
+    width: 50px;
+    text-align: center;
+    background: #f4f7f6;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    line-height: 50px;
+    border-left: 1px solid #e1e4e3;}
+
+.button
+{
+    color: black;
+    font-size: 12px;
+    font-weight: thin;
+    background: #f4f7f6;
+    border-left: 1px solid #e1e4e3;
+    transition: all 0.3s;
+    height: 50px;
+    width: 150px;
+}
+
+.f-dropdown.content{
+    z-index: 999;
+}
+
+.f-dropdown.mega.content:visited
+{
+    background-color: white;
+}
+
+.button.dropdown:visited{
+    background-color: white;
+}
+
+.button:hover
+{
+    color: #9ca09e;
+    background: white;
+}
+
+.block-p0
+{
+    margin-top: 1%;
+    padding: 0;
+}
+
+.dropdown.button::after, button.dropdown::after {
+    border-color: black transparent transparent transparent;
+}
+
+.dropdown-content
+{
+    padding-right: 100px;
+    z-index: 999;
+}
+
+.dropdown-content ul
+{
+    list-style-type: none;
+}
+
+.dropdown-content ul li
+{
+    margin-right: 5px;
+}
+
+
+.content-button
+{
+    z-index: 999;
+    display: inline;
+    color: black;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: normal;
+    padding:7px 20px 7px;
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 0.3s;
+
+}
+
+.content-button:hover
+{
+    color: #49c5b6;
+    border: 1px solid #49c5b6;
+    border-color: #49c5b6;
+}
+
+.button.awards
+{
+    width: 130px;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button.tags
+{
+    width: 110px;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button.tech
+{
+    width: 170px;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button.colors
+{
+    width: 130px;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button.countries
+{
+    width: 150px;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}

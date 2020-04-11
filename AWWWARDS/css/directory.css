@@ -1,0 +1,124 @@
+.hoverblack{
+    filter: brightness(100%);
+    filter: brightness(100%);
+    transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.one-title.directory
+{
+    font-weight: 100;   
+}
+
+.right-class a:link
+{
+    color: black;
+}
+
+.right-class a:visited
+{
+    color: black;
+}
+
+.right-class a:hover{
+    color: black;
+}
+
+.hoverblack:hover
+{
+    filter: brightness(70%);
+}
+
+.directory-box-info
+{
+    height: 280px;
+    background: white;
+    font-size: 14px;
+    text-align: center;
+}
+.directory-info-author
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.directory-info-author a
+{
+    transition: all 0.3s;
+}
+
+.directory-info-author a:link
+{
+    color: #49c5b6;
+}
+
+.directory-info-author a:hover
+{
+    color: black;
+}
+
+.directory-info-author h6
+{
+    padding-top: 10px;
+}
+
+.vote-info
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.vote-info ul
+{
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 40px;
+    text-align: center;
+    user-select: none;
+}
+.vote-info li
+{
+    display: inline;
+    text-align: center;
+}
+
+.has-tip.tip-top.vote-info-sotd
+{
+    padding: 5px;
+    border: 1px solid #cccccc;
+    color: black;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 5px;
+    float: left;
+}
+
+.vote-info-sotd
+{
+    padding: 5px;
+    border: 1px solid #cccccc;
+    color: black;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 5px;
+    float: left;
+}
+
+.vote-info-int
+{
+    padding: 5px;
+    border: 1px solid black;
+    color: black;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 5px;
+    float: left;
+    transition: border-color 0.3s;
+}
+
+.vote-info-int:hover
+{
+    border-color: #cccccc;
+}

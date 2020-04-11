@@ -1,0 +1,14 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CHROME1",
+            "type": "chrome",
+            "request": "launch",
+            "sourceMaps": false,
+            "file": "${workspaceRoot}/index.html",
+            "runtimeExecutable":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+        }
+    ]
+}

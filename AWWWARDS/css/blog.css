@@ -1,0 +1,14 @@
+.box-pic-img
+{
+    z-index: 101;
+    transition: all 0.3s;
+}
+
+.box-pic-img img{
+    z-index: 102;
+}
+
+.box-pic-img:hover
+{
+    filter: brightness(70%);
+}

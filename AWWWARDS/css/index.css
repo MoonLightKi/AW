@@ -1,0 +1,468 @@
+.container
+{
+    margin: 0 auto;
+    padding-bottom: 0px;
+    width: 95%;
+    z-index: 100;
+    position: relative;
+}
+
+.banner
+{
+    height: 500px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    text-align: center;
+    opacity: 0.95;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.banner:hover
+{
+    opacity: 1;
+}
+
+.row
+{
+    text-align: center;
+    color: white;
+}
+.by
+{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.by a
+{
+    color:#49c5b6
+}
+.by a:link
+{
+    color: #49c5b6;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.by a:hover
+{
+    color: white;
+}
+
+/* box-content starts there */
+
+.banner-content
+{
+    width: 100%;
+    height: 200px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+    background: rgba(255, 255, 255, 0);
+}
+
+.box-breadcrumb
+{
+    position: absolute;
+    padding-left: inherit;
+    padding-right: inherit;
+    height: 50px;
+    width: 90%;
+    font-size: 17px;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.box-breadcrumb-left
+{
+    color: white;
+}
+
+.box-breadcrumb-right
+{
+    display:flex;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+strong
+{
+    font-weight: 500;
+}
+
+strong.parent
+{
+    margin-right: 8px;
+}
+
+.text-x-thin
+{
+    font-weight: 100;
+}
+
+.banner-info-Hell
+{
+    line-height: 300px;
+}
+.heading-large
+{
+    color: white;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.block-p0
+{
+    margin-top: 3%;
+    padding: 0;
+    margin: auto;
+}
+
+.banner-info
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.banner-bl
+{
+    width: 100%;
+    height:100px;
+    padding-top: 50px;
+}
+.button-vs
+{
+    border-radius: 20px;
+    height: 40px;
+    width:130px;
+    background: #49c5b6;
+    color: white;
+    border: 1px solid #49c5b6;
+    font-weight: bold;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.button-vs:hover
+{
+    border: 1px solid #49c5b6;
+    color: #49c5b6;
+    background:rgba(255, 255, 255, 0);
+}
+
+.button-cl
+{
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    height: 40px;
+    width:130px;
+    border: 1px solid white;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.button-cl:hover
+{
+    color: #49c5b6;
+    border: 1px solid #49c5b6;
+    border-color: #49c5b6;
+}
+
+.right-title
+{
+    color: gray;
+    font-size: 16px;
+}
+
+.one-title
+{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.one-title a:link
+{
+    color: black;
+}
+
+.one-title a:hover
+{
+    color: black;
+}
+.inner
+{
+    text-align: center;
+}
+
+.gird-one-row
+{
+    margin: auto;
+    padding: 30px;
+    height: 100px;
+}
+
+.left-info
+{
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.right-info
+{
+    text-align: right;
+    float: left;
+    width:50%;
+}
+
+.ul-gird
+{
+    margin-top: 5%;
+    list-style-type: none;
+}
+
+.gird-two-row
+{
+    margin: 0 auto;
+    padding: 0;
+    height: 440px;
+    text-align: left;
+}
+
+.box-items
+{
+    width: 25%;
+    padding: 1%;
+    text-align: left;
+    height:430px;
+    float: left;
+    overflow: hidden;
+}
+
+.box-pic
+{
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    height: 230px;
+    transition: all 0.6s;
+    overflow: hidden;
+    text-align: right;
+}
+
+
+.box-pic:hover
+{
+    overflow: hidden;
+    transform:scale(1.05);
+}
+
+.box-pic:hover ::before
+{
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+.box-info
+{
+    background-color: white;
+    height: 170px;
+    text-align: left;
+}
+.box-info-text
+{
+    border-bottom: solid 2px rgba(200,200,200,0.3);
+    height:118px;
+    padding: 15px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-info-text.f1
+{
+    border-bottom: solid 2px rgba(200,200,200,0.3);
+    height:98px;
+    padding: 15px 20px 10px;   
+}
+
+.box-info-text ul
+{
+    padding: 10px;
+}
+
+.box-info-text li
+{
+    padding-bottom: 5px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.titlehref a
+{
+    color: black;
+    font-weight: 700;
+    transition-property: color;
+    transition-duration: 0.3s;
+    font-size: 14px;
+}
+
+.titlehref a:link
+{
+    color: black;
+}
+
+.titlehref a:visited
+{
+    color: black;
+}
+
+.titlehref a:hover
+{
+    color: gray;
+}
+
+.location
+{
+    font-size: 14px;
+}
+
+.box-info-author
+{
+    height: 90px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.dropdown
+{
+    background-color: white;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.button-join
+{
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+.button-join:hover
+{
+    border-color:#49c5b6;
+    color: #49c5b6;
+}
+
+.box-info-author-circlepic
+{
+    border-radius: 50%;
+    background-image: url("../images/gird-one-p1.jpg");
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+    background-size: cover;
+    
+}
+.box-info-author-name
+{
+    margin: 0px;
+    float: left;
+    width: 80%;
+    font-size: 14px;
+    color: gray;
+}
+
+.box-pic-top
+{
+    z-index: 103;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    height: 160px;
+    padding-left: 160px;
+}
+
+.button-heart
+{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 27px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0);
+    color:white;
+    border: solid 1px white;
+    display: none;
+}
+
+.button-share
+{
+    position: relative;
+    border: solid 1px white;
+    float: left;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    color:white;
+    display: none;
+    text-align: center;
+}
+
+button{
+    padding: 0px;
+}
+
+.button-pic
+{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 70px;
+    height: 27px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0);
+    color:white;
+    border: solid 1px white;
+    display: none;
+}
+
+.button-pic:hover
+{
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.box-pic-bottom
+{
+    z-index: 2;
+    display: block;
+    height: 70px;
+    text-align: right;
+    padding: 20px;
+    width: 100%;
+    padding-left: 255px;
+}
+
+

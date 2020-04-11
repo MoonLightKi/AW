@@ -1,0 +1,135 @@
+body
+{
+    font-weight: thin;
+}
+
+.block
+{
+    width: 100%;
+    text-align: center;
+}
+
+.page-heading hr
+{
+    width: 80px;
+    border: 2px solid black;
+}
+
+.page-heading h1
+{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    padding-bottom: 25px;
+}
+
+
+.page-heading
+{
+    width: 80%;
+    text-align: left;
+    padding: 80px 150px 100px 120px;
+}
+
+.page-heading p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+p
+{
+    padding-right: 300px;
+    font-weight: 300;
+}
+
+.tabs dd>a, .tabs .tab-title>a
+{
+    font-size: 12px;
+    background-color: #f4f7f6;
+    transition: all 0.3s;
+    height: 60px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.tabs dd>a, .tabs .tab-title>a:hover
+{
+    background: white;
+}
+
+
+.tabs li
+{
+    border-left: 1px solid #e1e4e3;
+}
+
+.ulnav
+{
+    width: 100%;
+    border-bottom: 1px solid #e1e4e3;
+    border-top: 1px solid #e1e4e3;
+    position: fixed;
+    z-index: 999;
+    background: #f4f7f6;
+}
+
+
+.banner.page
+{
+    background-image: url(../images/certificate.jpg);
+}
+
+.boxinfo
+{
+    padding: 80px;
+    width: 100%   
+}
+
+.boxinfo-left
+{
+    float: left;
+    width: 34%;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    text-align: left;  
+}
+
+.boxinfo-left h4
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxinfo-left hr
+{
+    border: 2px black solid;
+    width: 90px;
+}
+
+.boxinfo-left-span
+{
+    font-weight: thin;
+    font-size: 50%;
+    text-align: left;
+}
+
+.boxinfo-middle
+{
+    float: left;
+    width: 33%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.boxinfo-right
+{
+    float: left;
+    width: 33%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+

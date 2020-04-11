@@ -1,0 +1,199 @@
+a.button:visited
+{
+    background-color: #f4f7f6;
+    border-color: #f4f7f6;
+}
+
+a.button:active
+{
+    background-color: #f4f7f6;
+    border-color: #f4f7f6;
+}
+
+.right-info
+{
+    text-align: left;
+}
+
+.footer
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    padding: 0px 30px 0px 30px;
+    background: white;
+    margin-bottom: 40px;
+}
+
+.col-jobs
+{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    float: left;
+}
+
+.jobs-info
+{
+    width: 100%;
+}
+
+.jobs-info ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.col-talent
+{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    float: left;
+}
+
+.jobs-gird-title
+{
+    text-align: left;
+    padding: 50px 30px 50px 30px;
+}
+
+.jobs-icon img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.footer-box-left{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.footer-box-right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.footer-box-right.talent{
+    width: 100%;
+    text-align: right;
+}
+
+.talent-gird-title
+{
+    text-align: left;
+    padding: 50px 30px 50px 30px;
+}
+
+.jobs-row
+{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.fi-mail
+{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+.fi-mail:hover
+{
+    color: gray;
+}
+
+.jobs-row.name
+{
+    height: 50px;
+}
+
+.jobs-row.name
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content
+{
+    padding: 30px 30px 40px 30px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #202121;
+    text-align: left;
+    background-color: white;
+    transition: all 0.5s;
+    height: 560px;
+}
+
+.content:hover
+{
+    background-color: #f1f1f1;
+}
+
+.content.talent
+{
+    background-color: #e5f5f2da;
+    transition: all 0.5s;
+}
+
+.content.talent:hover
+{
+    background-color: #f1f1f1;
+}
+
+.cards-card
+{
+    width: 50%;
+    float: left;
+    background-color: #f4f7f6;
+    padding: 10px;
+}
+
+.offerpage
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
+    transition: all 0.3s;
+    font-weight: thin;
+    font-size: 18px;
+    width: 98%;
+    line-height: 55px;
+}
+
+.offerpage:hover
+{
+    background: #f1f1f1;
+}
+
+.offerpage span
+{
+    user-select: none;
+}
+
+.offerpage.talent{
+    background-color: #202121;
+    color: white;
+}
+
+.offerpage.talent:hover
+{
+    background-color: #202121be;
+}
+
+.show-all.talent{
+    background-color: #202121;
+    color: white;
+}
+
+.show-all.talent:hover{
+    background: #f1f1f1;
+}
